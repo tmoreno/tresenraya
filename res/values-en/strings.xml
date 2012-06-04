@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tres En Raya</string>
+    <string name="unjugador">One player</string>
+	<string name="dosjugadores">Two players</string>
+	<string name="dificil">Hard</string>
+	<string name="medio">Medium</string>
+	<string name="facil">Easy</string>
+	<string name="logo">logo</string>
+	<string name="licencia">License</string>
+	
+	<string name="casilla1">Square 1</string>
+	<string name="casilla2">Square 2</string>
+	<string name="casilla3">Square 3</string>
+	<string name="casilla4">Square 4</string>
+	<string name="casilla5">Square 5</string>
+	<string name="casilla6">Square 6</string>
+	<string name="casilla7">Square 7</string>
+	<string name="casilla8">Square 8</string>
+	<string name="casilla9">Square 9</string>
+	
+	<string name="victoriasJugador1">Player 1 wins</string>
+	<string name="victoriasJugador2">Player 2 wins</string>
+	
+	<string name="ganaJugador1">PLAYER 1 win</string>
+	<string name="ganaJugador2">PLAYER 2 win</string>
+	<string name="empate">You have drawn</string>
+</resources>

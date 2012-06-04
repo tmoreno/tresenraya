@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo"
+        android:layout_gravity="center_horizontal"/>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+	        android:id="@+id/victoriasJugador1textView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/victoriasJugador1"
+	        android:textColor="#ffffff"
+	        style="@style/textoNegrita" />
+        
+        <TextView
+	        android:id="@+id/victoriasJugador2textView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/victoriasJugador2"
+	        android:textColor="#ffffff"
+	        style="@style/textoNormal"
+	        android:layout_marginLeft="20dp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+	        android:id="@+id/numVictoriasJugador1textView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+			style="@style/textoNegrita" />
+        
+        <TextView
+	        android:id="@+id/numVictoriasJugador2textView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        style="@style/textoNormal"
+	        android:layout_marginLeft="150dp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/casilla1ImageButton"
+            android:contentDescription="@string/casilla1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/casilla2ImageButton"
+            android:contentDescription="@string/casilla2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/casilla3ImageButton"
+            android:contentDescription="@string/casilla3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/casilla4ImageButton"
+            android:contentDescription="@string/casilla4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/casilla5ImageButton"
+            android:contentDescription="@string/casilla5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/casilla6ImageButton"
+            android:contentDescription="@string/casilla6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/casilla7ImageButton"
+            android:contentDescription="@string/casilla7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/casilla8ImageButton"
+            android:contentDescription="@string/casilla8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:id="@+id/casilla9ImageButton"
+            android:contentDescription="@string/casilla9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+    
+</LinearLayout>
